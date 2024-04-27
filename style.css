@@ -67,7 +67,7 @@ text-align: left;
     padding-left: 3rem !important;
     border-radius: 40px !important;
 }
-@media screen and (max-width:768px){
+@media screen and (max-width:767px){
     .back-btn,.forward-btn{
         display: none;
     }
