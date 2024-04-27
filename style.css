@@ -1,4 +1,4 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -12,10 +12,12 @@
 .login {
     border-radius: 50px !important;
 }
-body{
+
+body {
     background-image: url(images/image\ 33.png);
     opacity: 0.9;
 }
+
 .main-heading {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 52px;
@@ -24,51 +26,58 @@ body{
     text-align: left;
 
 }
-.para{
+
+.para {
     font-family: sans-serif;
-font-size: 18px;
-font-weight: 400;
-line-height: 24px;
-text-align: left;
-color: white;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: white;
 }
-.buy{
+
+.buy {
     background-color: #AF52DE !important;
     color: white !important;
     border-radius: 50px !important;
     width: Fixed (200px);
-height: Fixed (60px);
-top: 512px;
-left: 853px;
-padding: 5px 26px 5px 26px;
-gap: 10px;
-box-shadow: 50px;
+    height: Fixed (60px);
+    top: 512px;
+    left: 853px;
+    padding: 5px 26px 5px 26px;
+    gap: 10px;
+    box-shadow: 50px;
 
 }
-.address a{
+
+.address a {
     text-decoration: none !important;
     color: black;
     font-family: sans-serif;
-font-size: 14px;
-font-style: italic;
-font-weight: 300;
-line-height: 14.06px;
-text-align: left;
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 300;
+    line-height: 14.06px;
+    text-align: left;
 
 }
-.gradient{
-    background: -webkit-linear-gradient(45deg,rgb(152, 76, 152), rgb(87, 87, 232));
+
+.gradient {
+    background: -webkit-linear-gradient(45deg, rgb(152, 76, 152), rgb(87, 87, 232));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
-.own-btn{
+.own-btn {
     padding-right: 3rem !important;
     padding-left: 3rem !important;
     border-radius: 40px !important;
 }
-@media screen and (max-width:767px){
-    .back-btn,.forward-btn{
+
+@media screen and (max-width:767px) {
+
+    .back-btn,
+    .forward-btn {
         display: none;
     }
 }
